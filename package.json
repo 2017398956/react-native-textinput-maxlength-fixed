@@ -1,6 +1,6 @@
 {
   "name": "react-native-textinput-maxlength-fixed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "fix TextInput's maxLength bug when  using a non-English input method.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -42,7 +42,8 @@
     "react-native",
     "ios",
     "android",
-    "TextInput"
+    "TextInput",
+    "maxLength"
   ],
   "repository": "https://github.com/2017398956/react-native-textinput-maxlength-fixed",
   "author": "choochoofly <nfl0328@outlook.com> (https://github.com/2017398956)",

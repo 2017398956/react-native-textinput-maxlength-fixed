@@ -8,6 +8,14 @@ fix TextInput's maxLength bug when  using a non-English input method.
 
 ```sh
 npm install react-native-textinput-maxlength-fixed
+npx pod-install
+```
+
+## Usage
+
+```js
+    Just install it, no extra work is needed.
+    安装好就行，不需要额外的工作。
 ```
 
 ## Contributing
