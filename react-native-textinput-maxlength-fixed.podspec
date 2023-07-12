@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "11.0" }
+  s.requires_arc  = true
+  s.framework     = 'UIKit'
   s.source       = { :git => "https://github.com/2017398956/react-native-textinput-maxlength-fixed.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"

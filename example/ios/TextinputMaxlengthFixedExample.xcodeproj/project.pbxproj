@@ -497,7 +497,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TextinputMaxlengthFixedExample;
@@ -524,7 +523,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
-					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TextinputMaxlengthFixedExample;

@@ -62,11 +62,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		8152C9F62A5EB36800D1AA04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* TextinputMaxlengthFixed */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "TextinputMaxlengthFixed" */;
 			buildPhases = (
+				8152C9F62A5EB36800D1AA04 /* Headers */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -229,10 +240,7 @@
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TextinputMaxlengthFixed;
 				SKIP_INSTALL = YES;
 			};
@@ -248,10 +256,7 @@
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TextinputMaxlengthFixed;
 				SKIP_INSTALL = YES;
 			};

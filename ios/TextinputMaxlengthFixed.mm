@@ -1,5 +1,5 @@
 #import "TextinputMaxlengthFixed.h"
-
+#import "RCTBaseTextInputView+Helper.h"
 @implementation TextinputMaxlengthFixed
 RCT_EXPORT_MODULE()
 
