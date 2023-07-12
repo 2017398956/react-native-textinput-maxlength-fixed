@@ -1,0 +1,38 @@
+import * as React from 'react';
+
+import { StyleSheet, View, Text, TextInput } from 'react-native';
+import { multiply } from 'react-native-textinput-maxlength-fixed';
+
+export default function App() {
+  const [result, setResult] = React.useState<number | undefined>();
+
+  React.useEffect(() => {
+    multiply(3, 7).then(setResult);
+  }, []);
+
+  return (
+    <View style={styles.container}>
+      <Text>Result: {result}</Text>
+      <TextInput maxLength={6} style={styles.textInput} />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  box: {
+    width: 60,
+    height: 60,
+    marginVertical: 20,
+  },
+  textInput: {
+    borderColor: 'gray',
+    borderWidth: 1,
+    padding: 16,
+    width: 300,
+  },
+});
