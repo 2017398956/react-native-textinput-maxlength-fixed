@@ -2,7 +2,7 @@
 
 fix TextInput's maxLength bug when  using a non-English input method.
 
-引入后不需要 import ，如果不起作用，直接复制 RCTBaseTextInputView+Helper.h RCTBaseTextInputView+Helper.mm 到你的 iOS 项目即可。
+修复拼音输入法下 TextInput maxLength 不能输入的 bug。
 
 ## Installation
 
